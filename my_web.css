@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+#navbarNav li{
+    text-align:center;
+}
+.nav-item{
+  margin-top: 5px;
+}
+.nav-item:hover{
+    border:3px solid green;
+    border-radius:5px;
+    position:relative;
+}
+.frame{
+background-image:url(https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+width:100%;
+height: 700px;
+margin: auto;
+background-position:center;
+text-align:center;
+margin:auto;
+}
+.frame h1{
+   padding-top:200px;
+   color:green;
+   font-size:70px;
+   font-style:arial;
+   text-shadow:5px 5px 10px black;
+}
+.frame p{
+    color:#fff;
+    font-size:30px;
+    font-style:arial;
+    text-shadow:2px 2px 5px black;
+    letter-spacing: 2px;
+}
+.content{
+    padding-top:20px;
+    padding-bottom:20px; background-image:url(https://cdn.pixabay.com/photo/2017/10/27/15/12/geeks-2894621_1280.jpg);
+
+    background-repeat:repeat ;
+    background-attachment:fixed;
+    color:#fff;
+    font-family: 'Metal Mania', cursive;
+    font-size:25px;
+    letter-spacing: 3px;
+}
+.about{
+background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-attachment:fixed;
+    display:none;
+    width:100%;
+    height:1600px;
+    background-position: center;
+}
+.profile{
+    padding:20px;
+    text-align:center;
+    color:white;
+    font-family:'Metal Mania',cursive;
+}
+.profile img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:10px solid #096b99;
+}
+.progress{
+    background-color:none;
+    border:1px solid green;
+}
+.skills{
+    border:5px double green;
+    padding:20px;
+    color:green ;
+    border-radius:10px;
+    position:relative ;
+    font-family:arial;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bio p{
+    color:#58c3fc;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    padding: 20px;
+    font-size: 20px;
+}
+.bio h2{
+    font-family:"Metal Mania",cursive;
+    text-align:center;
+    color:white;
+}
+.contact{
+  display:none;
+  align-items: center;
+  text-align: center;
+  font-family:'Righteous', cursive;
+}
+.contact img{
+  height:60px;
+  width:60px;
+  padding :10px;
+
+}
+.contact img:hover{
+  height: 100px;
+  width: 100px;
+}
+
+.design{
+  height: 80px;
+  width:100%;
+  text-align: center;
+  background-color: black;
+  color:white;
+  font-family:'Righteous', cursive;
+  padding-top: 15px;
+  position:relative;
+}
+.design img{
+  height:45px;
+  width: 45px;
+}
+.blog{
+  display:none;
+  text-align: center;
+  font-family:'Righteous', cursive;
+  padding: 200px;
+}
+svg{
+  height: 25px;
+  width: 25px;
+}
