@@ -127,8 +127,7 @@ background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-10974
   display:none;
   text-align: center;
   font-family:'Righteous', cursive;
-  padding-top: 200px;
-  padding-bottom:200px;
+ padding:100px;
 }
 svg{
   height: 25px;
