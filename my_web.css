@@ -3,13 +3,15 @@
 #navbarNav li{
     text-align:center;
 }
-.nav-item{
-  margin-top: 5px;
-}
+
 .nav-item:hover{
-    border:3px solid green;
-    border-radius:5px;
-    position:relative;
+    border:2px solid green;
+    border-radius:10px;
+    position:inherit;
+}
+.brand{
+  height: 50px;
+  width: 50px;
 }
 .frame{
 background-image:url(https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
@@ -46,8 +48,6 @@ margin:auto;
     letter-spacing: 3px;
 }
 .about{
-background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-    background-attachment:fixed;
     display:none;
     width:100%;
     height:1600px;
@@ -56,7 +56,7 @@ background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-10974
 .profile{
     padding:20px;
     text-align:center;
-    color:white;
+    color:#08ffc9;
     font-family:'Metal Mania',cursive;
 }
 .profile img{
@@ -70,7 +70,6 @@ background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-10974
     border:1px solid green;
 }
 .skills{
-    border:5px double green;
     padding:20px;
     color:green ;
     border-radius:10px;
@@ -80,17 +79,27 @@ background-image:url(https://images.pexels.com/photos/1097456/pexels-photo-10974
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .bio p{
     color:#58c3fc;
+    background: black;
+    opacity: 0.7;
     font-family: 'Righteous', cursive;
     letter-spacing: 1px;
     padding: 20px;
     font-size: 20px;
+    border-radius: 15px;
+   
+}
+.bio p:hover{
+  opacity: 1;
+  box-shadow: 7px 7px 7px #7c8c91;
+  
 }
 .bio h2{
     font-family:"Metal Mania",cursive;
     text-align:center;
-    color:white;
+    color:#08ffc9;
 }
 .contact{
   display:none;
