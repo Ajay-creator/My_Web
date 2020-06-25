@@ -121,7 +121,7 @@ margin:auto;
   font-family:'Righteous', cursive;
   padding-top: 15px;
   position:relative;
-  bottom:0;
+  margin-bottom:0;
 }
 .design img{
   height:45px;
@@ -132,7 +132,7 @@ margin:auto;
   display:none;
   text-align: center;
   font-family:'Righteous', cursive;
-  top:50%;
+  padding-top:50%;
 }
 svg{
   height: 25px;
