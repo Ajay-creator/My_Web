@@ -110,12 +110,11 @@ margin:auto;
 .contact img{
   height:60px;
   width:60px;
-  padding :10px;
+  padding :25px;
 
 }
 .contact img:hover{
-  height: 100px;
-  width: 100px;
+  transform : scale(2.0)
 }
 
 .design{
@@ -125,10 +124,9 @@ margin:auto;
   background-color: black;
   color:white;
   font-family:'Righteous', cursive;
-  padding-top: 20px;
+  padding-top: 15px;
   position:relative;
   bottom:0;
-  display:flex;
 }
 .design img{
   height:45px;
