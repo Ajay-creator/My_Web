@@ -125,12 +125,17 @@ margin:auto;
   background-color: black;
   color:white;
   font-family:'Righteous', cursive;
-  padding-top: 15px;
+  padding-top: 20px;
   position:relative;
+  left:0;
+  right :0;
+  bottom:0;
+  display:flex;
 }
 .design img{
   height:45px;
   width: 45px;
+  animation:beat 1.1s linear infinite forwards 7.5s;
 }
 .blog{
   display:none;
@@ -141,4 +146,11 @@ margin:auto;
 svg{
   height: 25px;
   width: 25px;
+}
+@keyframes beat{
+     0%{transform:scale(1.0);}
+     25%{transform:scale(1.4);}
+     50%{transform:scale(1.0);}
+     75%{transform:scale(1.4);}
+     100%{transform:scale(1.0);}
 }
